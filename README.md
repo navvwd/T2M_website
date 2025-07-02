@@ -1,2 +1,3 @@
 # T2M_website
 This code contains the website for digital marketing built using the MERN stack.
+I developed a website using HTML, CSS, and JavaScript for the front end. I used Node.js for the backend and MongoDB as the database. I started with a basic structure I found online and customized it based on my needs. I used CSS to make the website more attractive, and JavaScript to add interactivity, allowing users to share their requirements through the website. I also created a graph using JavaScript. On the backend, I set up a Node.js server, installed the required modules, and connected to the database using Mongoose. The collected data is stored in the MongoDB database.
