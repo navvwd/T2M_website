@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-
 const enquirySchema = new mongoose.Schema({
     name: String,
     email: String,
@@ -7,5 +6,4 @@ const enquirySchema = new mongoose.Schema({
     message: String,
     date: { type: Date, default: Date.now }
 });
-
 module.exports = mongoose.model('Enquiry', enquirySchema);
