@@ -1,4 +1,3 @@
-// Chart.js for growth chart
 const ctx = document.getElementById('growthChart').getContext('2d');
 const growthChart = new Chart(ctx, {
     type: 'line',
@@ -22,7 +21,6 @@ const growthChart = new Chart(ctx, {
     }
 });
 
-// Contact form submission
 const form = document.getElementById('contactForm');
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
